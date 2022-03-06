@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lentes de contato ACUVUE® - Cadastre-se!</title>
+  <link rel="shortcut icon" href="https://www.acuvue.com.br/sites/acuvue_br/files/favicon_0.ico" type="image/vnd.microsoft.icon">
+
+  <!-- Fonts Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Api Connection -->
+  <script link="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</head>
+  <body>
+    <div class="content">
+      <header>
+        <div class="topo">
+          <img src="./assets/logoAcuvue.svg" alt="Logo ACUVUE!">
+          <h1>Que incrível que você tem interesse em trabalhar com as lentes contato ACUVUE.</h1>
+          <h3>O primeiro passo, é preencher esse formulário de cadastro.</h3>
+        </div>
+      </header>
+      <form action="">
+        <div class="data-form">
+          <h2>Seus dados</h2>
+          <hr class="separator-data">
+          <div>
+            <label for="grupo">Nome do grupo</label>
+            <span id="one">(Obrigatório se possuir grupo)</span>
+            <input type="text" id="grupo" name="grupo">
+          </div>
+          <div>
+            <label for="social">Razão social</label>
+            <input type="text" id="social" name="social">
+          </div>
+          <div>
+            <label for="fantasia">Nome fantasia</label>
+            <input type="text" id="fantasia" name="fantasia">
+          </div>
+          <div>
+            <label for="cnpj">CNPJ | CPF</label>
+            <span id="two">(Obrigatório preenchimento)</span>
+            <input type="text" id="cnpj" name="cnpj">
+          </div>
+          <div>
+            <label for="inscricao">Inscrição estadual</label>
+            <input type="text" id="inscricao" name="inscricao">
+          </div>
+          <div>
+            <label for="nascimento">Data de nascimento</label>
+            <span id="three">(Obrigatório para Pessoa Física)</span>
+            <input type="date" id="nascimento" name="nascimento">
+          </div>
+          <div>
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco">
+          </div>
+          <div>
+            <label for="numero">Número</label>
+            <input type="text"  id="numero" name="numero">
+          </div>
+          <div>
+            <label for="complemento">Complemento</label>
+            <input type="text" id="complemento" name="complemento">
+          </div>
+          <div>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro">
+          </div>
+          <div>
+            <label for="cep">Cep</label>
+            <input type="text" id="cep" name="cep">
+          </div>
+          <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade">
+          </div>
+          <div>
+            <label for="uf">UF</label>
+            <input type="text" id="uf" name="uf">
+          </div>
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone">
+          </div>
+          <div>
+            <label for="celular">Celular</label>
+            <input type="tel" id="celular" name="celular">
+          </div>
+          <div>
+            <label for="comercial">E-mail Comercial</label>
+            <input type="email" id="comercial" name="comercial">
+          </div>
+          <div>
+            <label for="nf">E-mail NF</label>
+            <input type="email" id="nf" name="nf">
+          </div>
+        </div>
+        <hr class="line-separator">
+        <dvi class="down">
+          <img src="./assets/Atenção.svg" alt="Icon de Alerta">
+          <span>Importante! Preencha todos os dados</span>
+          <button type="submit">Enviar cadastro</button>
+        </dvi>
+      </form>
+      <footer>
+        <div class="rodape">
+          <span>Copyright @2022, All right reserved TigoCode.</span>
+        </div>
+      </footer>
+    </div>    
+  </body>
+</html>

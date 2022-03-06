@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Archivo', 'Poppins', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 90rem;
+  height: 151.6rem;
+
+  background: #F0F0F7;
+}
+.topo {
+  position: absolute;
+  width: 90rem;
+  height: 23rem;
+  top: 0;
+
+  background: #00539B;
+}
+.topo img {
+  position: absolute;
+  width: 7.8rem;
+  height: 1.8rem;
+  left: 74.13rem;
+  top: 2.48rem;
+}
+.topo h1 {
+  position: absolute;
+  width: 44.4rem;
+  height: 5.6rem;
+  left: 20rem;
+  top: 5rem;
+
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+
+  color: #FFFFFF;
+}
+.topo h3 {
+  position: absolute;
+  width: 17.7rem;
+  height: 3.3rem;
+  left: 20rem;
+  top: 11.75rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6rem;
+
+  color: #FFFFFF;
+}
+.data-form {
+  position: absolute;
+  width: 46rem;
+  height: 120.1rem;
+  left: 20rem;
+  top: 19rem;
+
+  background: #FFFFFF;
+  border: 0.0625rem solid #E0E0FF;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5125rem;
+}
+.data-form h2 {
+  position: relative;
+  width: 8.19rem;
+  height: 2.12rem;
+  left: 4rem;
+  padding-top: 4.12rem;
+  padding-bottom: 2.6rem;
+
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.13rem;
+
+  color: #32264D;
+}
+.data-form .separator-data {
+  position: absolute;
+  width: 38rem;
+  height: 0rem;
+  left: 4rem;
+  top: 6.4rem;
+
+  border: 0.0625rem solid #c7c7ce;
+}
+.data-form label {
+  position: relative;
+  width: 9.9rem;
+  height: 1.5rem;
+  left: 4rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.88rem;
+  line-height: 1.5rem;
+
+  color: #9C98A6;
+
+  display: inline-block;
+  margin-bottom: 0.35rem;
+}
+.data-form span {
+  position: relative;
+  width: 11.4rem;
+  height: 1.3rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1.3rem;
+
+  color: #C1BCCC;
+
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+.data-form #one {
+  left: 2rem;
+}
+.data-form #two {
+  left: 0rem;
+}
+.data-form #three {
+  width: 13.4rem;
+  left: 4rem;
+}
+.data-form input {
+  position: relative;
+  width: 38rem;
+  height: 3.1rem;
+  left: 4rem;
+
+  background: #FAFAFC;
+  border: 0.0625rem solid #c9c9c9;
+  border-radius: 0.5rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+
+  color: #9797a7;
+
+  padding: 0.5rem;
+}
+.down {
+  position: absolute;
+  width: 46rem;
+  height: 9.625rem;
+  left: 20rem;
+  top: 137.56rem;
+
+  background: #E0E0FF;
+  border: 0.0625rem solid #E0E0FF;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.down img {
+  position: absolute;
+  width: 2rem;
+  height: 2.26rem;
+  left: 4rem;
+  top: 3.66rem;
+}
+.down span {
+  position: absolute;
+  width: 9.56rem;
+  height: 2.82rem;
+  left: 7rem;
+  top: 3.54rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.78rem;
+  line-height: 1.25rem;
+
+  color: #9797a7;
+}
+.down button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.9375rem 2.5rem;
+
+  position: absolute;
+  width: 12.31rem;
+  height: 3.5rem;
+  left: 31rem;
+  top: 2.86rem;
+
+  background: #04D361;
+  border: 0.0625rem solid #E0E0FF;
+  border-radius: 0.5rem;
+
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.99375rem;
+  line-height: 1.625rem;
+
+  color: #FFFFFF;
+
+}
+.down button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  border: 0.0725rem solid #04d361;  
+}
+.line-separator {
+  position: relative;
+  width: 46rem;
+  height: 0rem;
+  left: 20rem;
+  top: 137.43rem;
+
+  border: 0.0625rem solid hsla(240, 58%, 53%, 0.949)
+}
+.rodape {
+  position: absolute;
+  width: 19.56rem;
+  height: 1.82rem;
+  margin-top: 148.62rem;
+  margin-left: 34.43rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.85rem;
+  line-height: 1.25rem;
+  color: #6c757d;
+
+  display: inline-block;
+  align-content: center;
+}
+
+@media(max-width: 1026px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
