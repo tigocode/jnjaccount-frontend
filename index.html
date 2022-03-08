@@ -10,12 +10,12 @@
   <!-- Fonts Family -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap">
 
   <!-- Style CSS -->
   <link rel="stylesheet" href="style.css">
   <!-- Api Connection -->
-  <script link="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios@0.21.4/dist/axios.min.js"></script>
   <script src="main.js"></script>
 </head>
   <body>
@@ -27,7 +27,7 @@
           <h3>O primeiro passo, é preencher esse formulário de cadastro.</h3>
         </div>
       </header>
-      <form action="">
+      <form action="javascript: addNewToSend();" method="POST">
         <div class="data-form">
           <h2>Seus dados</h2>
           <hr class="separator-data">
@@ -38,25 +38,25 @@
           </div>
           <div>
             <label for="social">Razão social</label>
-            <input type="text" id="social" name="social">
+            <input type="text" id="social" name="razao_social">
           </div>
           <div>
             <label for="fantasia">Nome fantasia</label>
-            <input type="text" id="fantasia" name="fantasia">
+            <input type="text" id="fantasia" name="nome_fantasia">
           </div>
           <div>
             <label for="cnpj">CNPJ | CPF</label>
             <span id="two">(Obrigatório preenchimento)</span>
-            <input type="text" id="cnpj" name="cnpj">
+            <input type="text" id="cnpj" name="cpf_cnpj">
           </div>
           <div>
             <label for="inscricao">Inscrição estadual</label>
-            <input type="text" id="inscricao" name="inscricao">
+            <input type="text" id="inscricao" name="inscricao_estadual">
           </div>
           <div>
             <label for="nascimento">Data de nascimento</label>
             <span id="three">(Obrigatório para Pessoa Física)</span>
-            <input type="date" id="nascimento" name="nascimento">
+            <input type="text" id="nascimento" name="data_nascimento">
           </div>
           <div>
             <label for="endereco">Endereço</label>
@@ -92,22 +92,22 @@
           </div>
           <div>
             <label for="celular">Celular</label>
-            <input type="tel" id="celular" name="celular">
+            <input type="tel" id="celular" name="telefone_celular">
           </div>
           <div>
             <label for="comercial">E-mail Comercial</label>
-            <input type="email" id="comercial" name="comercial">
+            <input type="email" id="comercial" name="email">
           </div>
           <div>
             <label for="nf">E-mail NF</label>
-            <input type="email" id="nf" name="nf">
+            <input type="email" id="nf" name="email_nfe">
           </div>
         </div>
         <hr class="line-separator">
         <dvi class="down">
           <img src="./assets/Atenção.svg" alt="Icon de Alerta">
           <span>Importante! Preencha todos os dados</span>
-          <button type="submit">Enviar cadastro</button>
+          <button type="submit" value="Enviar">Enviar cadastro</button>
         </dvi>
       </form>
       <footer>
