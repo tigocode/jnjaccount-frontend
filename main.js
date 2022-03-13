@@ -1,4 +1,4 @@
-const BASEURL = "http://localhost:3333/api";
+const BASEURL = "https://jnjaccount-backend.herokuapp.com/api";
 
 async function addNewToSend() {
   const form = document.querySelector('form');
