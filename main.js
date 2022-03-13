@@ -24,5 +24,7 @@ async function addNewToSend() {
   }
   axios.post(BASEURL, formData)
     .then(response => console.log(response.data))
-    .catch(error => error)
+    .catch(error => error);
+
+  document.getElementById('form1').reset();
 }
