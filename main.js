@@ -1,4 +1,4 @@
-const BASEURL = "https://jnjaccount-backend.herokuapp.com/api";
+const BASEURL = "https://jnjaccount-backend.herokuapp.com";
 
 async function addNewToSend() {
   const form = document.querySelector('form');
