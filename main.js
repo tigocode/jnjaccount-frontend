@@ -1,5 +1,5 @@
-//const BASEURL = "https://jnjaccount-backend.herokuapp.com";
-const BASEURL = "http://localhost:3333/";
+const BASEURL = "https://jnjaccount-backend.herokuapp.com";
+//const BASEURL = "http://localhost:3333/";
 
 async function addNewToSend() {
   const form = document.querySelector('form');
