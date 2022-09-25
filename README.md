@@ -4,7 +4,7 @@
 
 > Projeto Pessoal
 
-O projeto teve como finalidade criar uma pagina completa que permita os possivéis clientes ACUVUE possam efetuar a solicitação de cadastro de parceira.
+O projeto tem como finalidade criar uma pagina completa que permita os possivéis clientes ACUVUE possam efetuar a solicitação de cadastro de parceira.
 
 O processo antes era feito através de uma planilha de excel enviada por e-mail, processo que exigia a necessidade do um uso do computador para completar a solicitação.
 
@@ -16,6 +16,7 @@ Com uma pagina web o prospecte pode faze-lo de qualquer lugar, usando o disposit
 
 - HTML
 - CSS
+- JavaScript
 - Git e Github
 
 ## 🚀 Contato
